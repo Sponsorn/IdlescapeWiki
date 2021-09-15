@@ -170,11 +170,22 @@ a.mw-selflink.selflink {
 }
 
 div.thumbinner {
-    border: none
+    border: 0px solid #c8ccd1;
+    padding: 3px;
+    background-color: transparent;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
 }
 
 .thumbimage {
-    background: #222e45
+    border: none;
+    background-color: transparent !important;
+}
+
+.thumbimage {
+    background: #222e45;
+    border: 0px solid !important;
 }
 
 .thumbcaption {
@@ -301,11 +312,13 @@ div.vectorMenu h3 span:after {
     background: rgba(7, 16, 34, 0.7);
     top: 0;
     right: 0;
-    border-radius: 0 0 0 0.3em
+    border-radius: 0 0 0 0.3em;
+    position: absolute;
+    z-index: 100
 }
 
 #p-personal ul {
-    padding: 0.25em 1em 0 0.7em;
+    padding: 0.25em 1em 1em 0.7em;
 }
 
 .mw-echo-alert:visited,
@@ -366,14 +379,6 @@ div#simpleSearch #searchButton {
 
 #footer ul li {
     color: #cbd9f4
-}
-
-
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution:192dpi) {
-    #footer-poweredbyico div {
-        background-image: url(/images/8/82/Weird_Gloop_footer_dark.png?a5f4a)
-    }
 }
 
 .catlinks {
@@ -548,7 +553,7 @@ body td.diff-addedline {
 }
 
 body td.diff-addedline .diffchange {
-    color: #ffffff;
+    color: #cbd9f4;
     background: #438ab5
 }
 
@@ -739,7 +744,7 @@ body .oo-ui-pendingElement-pending {
 .tdg-templateDataDialog-panels .errorbox {
     background-color: #9f261e;
     border-color: #9f261e;
-    color: #ffffff
+    color: #cbd9f4
 }
 
 .tdg-templateDataDialog-panels .successbox {
@@ -1042,16 +1047,15 @@ table.wikitable td {
 }
 
 table.jquery-tablesorter th.headerSort {
-    background-image: linear-gradient(transparent, transparent), url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2221%22 height=%229%22 viewBox=%220 0 21 9%22%3E %3Cpath d=%22M14.5 5l-4 4-4-4zm0-1l-4-4-4 4z%22/%3E %3C/svg%3E");
-    fill: white;
+    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2221%22 height=%229%22 viewBox=%220 0 21 9%22%3E %3Cg fill=%22%23cbd9f4%22%3E %3Cpath d=%22M14.5 5l-4 4-4-4zM14.5 4l-4-4-4 4z%22/%3E %3C/g%3E %3C/svg%3E");
 }
 
 table.jquery-tablesorter th.headerSortUp {
-    background-image: linear-gradient(transparent, transparent), url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2221%22 height=%224%22 viewBox=%220 0 21 4%22%3E %3Cpath d=%22M6.5 4l4-4 4 4z%22/%3E %3C/svg%3E")
+    background-image: linear-gradient(transparent, transparent), url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2221%22 height=%224%22 viewBox=%220 0 21 4%22%3E %3Cg fill=%22%23cbd9f4%22%3E %3Cpath d=%22M6.5 4l4-4 4 4z%22/%3E %3C/g%3E %3C/svg%3E")
 }
 
 table.jquery-tablesorter th.headerSortDown {
-    background-image: linear-gradient(transparent, transparent), url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2221%22 height=%224%22 viewBox=%220 0 21 4%22%3E %3Cpath d=%22M14.5 0l-4 4-4-4z%22/%3E %3C/svg%3E")
+    background-image: linear-gradient(transparent, transparent), url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2221%22 height=%224%22 viewBox=%220 0 21 4%22%3E %3Cg fill=%22%23cbd9f4%22%3E %3Cpath d=%22M14.5 0l-4 4-4-4z%22/%3E %3C/g%3E %3C/svg%3E")
 }
 
 .messagebox {
@@ -1149,7 +1153,7 @@ table.jquery-tablesorter th.headerSortDown {
 .toc .toctitle h2,
 #toc .toctitle a,
 .toc .toctitle a {
-    color: #ffffff
+    color: #cbd9f4
 }
 
 #toc .toclevel-1 a,
@@ -1177,8 +1181,8 @@ table.jquery-tablesorter th.headerSortDown {
 }
 
 .mwe-math-fallback-image-inline {
-    -webkit-filter: invert(100%);
-    filter: invert(100%)
+    -webkit-filter: invert(85%);
+    filter: invert(85%)
 }
 
 .chat-options-dialogue {
