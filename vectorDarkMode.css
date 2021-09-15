@@ -368,14 +368,6 @@ div#simpleSearch #searchButton {
     color: #cbd9f4
 }
 
-
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution:192dpi) {
-    #footer-poweredbyico div {
-        background-image: url(/images/8/82/Weird_Gloop_footer_dark.png?a5f4a)
-    }
-}
-
 .catlinks {
     background: #313e59;
     border: none
