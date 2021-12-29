@@ -1,0 +1,573 @@
+/* CSS placed here will be applied to all skins */
+
+
+/* General changes */
+
+.noautonum .tocnumber { 
+  display: none; 
+}
+
+/**
+    Template for Infobox_Monster
+**/
+.infobox {
+  background: #eee;
+  border: 1px solid #aaa;
+  float: right;
+  margin: 0.5em 0 1em 1em;
+  padding: 1em;
+  width: 300px;
+  word-break: break-word;
+  font-size: 0.85em;
+}
+.infobox-header {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.4em;
+  padding: 0.5em 0;
+  line-height: 2em;
+  background-color: #bebebe;
+  font-weight: bold;
+}
+.infobox-title {
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 2em;
+  background-color: #bebebe;
+  font-weight: bold;
+}
+.infobox-image {
+  text-align: center;
+}
+.infobox-image img {
+  max-width: 300px;
+  height: auto;
+  padding: 1em;
+}
+.infobox-stats {
+  text-align: center;
+  padding: 0.25em;
+}
+.infobox-nested {
+  text-align: center;
+}
+.infobox th {
+  text-align: right;
+}
+.infobox td {
+  padding: 0.25em 0.5em;
+  line-height: 1.6em;
+}
+.fullWidth-table {
+  width: 100%;
+}
+
+/**
+    Main Page
+**/
+body[class*="page-Idlescape_Wiki"] .mw-parser-output {
+  max-width: 75em;
+  margin: 0 auto;
+}
+body[class*="page-Idlescape_Wiki"] .firstHeading {
+  display: none;
+}
+.mainpage-header {
+  display: flex;
+  margin: 2.6em 1.75em 1.5em;
+}
+.mainpage-header .header-intro {
+  flex: 2;
+}
+.mainpage-header .header-intro h1 {
+  font-size: 2.5em;
+  border: none;
+  margin: 0 0 0.15em;
+}
+.mainpage-header .header-intro h2 {
+  font-size: 1.5em;
+  border: none;
+  margin: 0 0 0.15em;
+}
+.mainpage-header .header-intro p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+.mainpage-header .header-stats {
+    flex: 1 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1em;
+}
+.mainpage-header .header-stats ul {
+  list-style: none;
+}
+.mainpage-body {
+  display: flex;
+  flex-flow: row wrap;
+}
+.mainpage-body h2 a {
+  color: #444e5a;
+}
+.mainpage-body .tile {
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  max-width: 100%;
+}
+.mainpage-body .tile-row {
+  width: 100%;
+  margin-bottom: 0.9rem;
+}
+.mainpage-left {
+  flex: 2;
+  display: flex;
+  flex-flow: column wrap;
+  margin-right: 0.9rem;
+}
+.mainpage-left > * {
+  margin: 0 0 0.9rem;
+}
+.mainpage-right {
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+}
+.mainpage-right > * {
+  margin: 0 0 0.9rem;
+}
+.mainpage-contents .tile-halves {
+  flex: 1;
+  margin-right: 0.9rem;
+}
+.mainpage-contents .tile-halves:last-child {
+  margin-right: 0;
+}
+.mainpage-contents .tile-top {
+  height: 4.5rem;
+  position: relative;
+}
+.mainpage-contents .tile-top h2 a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 4.5rem;
+  padding-left: 0.45rem;
+}
+.mainpage-contents h2 {
+  margin: 0;
+  padding: 0;
+}
+.tile {
+  background: #f6f6f6;
+  border: 1px solid #a7d7f9;
+  box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
+  padding: 1.5em 2em 1em;
+  max-width: 40em;
+}
+.tile h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  border: none;
+  margin: 0 0 0.4em;
+}
+.tile .byline + h2 {
+  margin-top: -0.5em;
+}
+.tile.dark {
+  color: #ffffff;
+  background: #5d6773;
+  border: none;
+  box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.3);
+}
+.tile.dark h2 {
+  color: #ffffff;
+}
+.tile.dark a {
+  color: #ccc;
+}
+.tile.dark .byline {
+  color: rgba(255, 255, 255, 0.7);
+}
+.byline {
+  font-size: 0.9em;
+  color: #5c6168;
+}
+.byline a {
+  color: #5c6168;
+}
+.tile-row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1em;
+}
+.tile-halves {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid #a7d7f9;
+  background: #f6f6f6;
+  box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
+}
+.tile-halves h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  border: none;
+  margin: 0 0 0.4em;
+}
+.tile-halves .byline + h2 {
+  margin-top: -0.5em;
+}
+.tile-top {
+  width: 100%;
+  padding: 1.3rem 1.5rem 0.6rem;
+}
+.tile-top.tile-image {
+  display: flex;
+  align-items: center;
+  background-color: #5c6168;
+  overflow: hidden;
+  padding: 0;
+  height: 13vw;
+  max-height: 12em;
+  transition: 0.4s ease-out;
+}
+.tile-top.tile-image:hover img {
+  transform: scale(1.1);
+  transition: 0.5s ease-out;
+}
+.tile-top.tile-image a {
+  width: 100%;
+}
+.tile-top.tile-image img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+  transition: 0.4s ease-out;
+}
+.tile-top.tile-image-std {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+  height: 10vw;
+}
+.tile-top.tile-image-std a {
+  width: 100%;
+}
+.tile-top.tile-image-std img {
+  object-fit: cover;
+}
+.tile-bottom {
+  background: #f6f6f6;
+  border-top: 1px solid #a7d7f9;
+  width: 100%;
+  padding: 1rem 1.5rem 0.6rem;
+}
+.tile-bottom.link-button {
+  align-self: flex-end;
+  padding: 0;
+}
+.tile-bottom.link-button a {
+  display: block;
+  text-align: center;
+  padding: 0.75em 1.5em 0.8em;
+  text-decoration: none;
+}
+.tile-bottom.read-more {
+  background: #eaecf0;
+  transition: 0.3s ease-out;
+}
+.tile-bottom.read-more a {
+  color: #5c6168;
+  font-weight: bold;
+  text-align: right;
+}
+.tile-bottom.read-more:hover {
+  background: #bbbcc0;
+}
+.tile-bottom.read-more:hover .arrow {
+  transform: translateX(50%);
+}
+.tile-bottom.read-more .arrow {
+  filter: invert(36%) sepia(9%) saturate(463%) hue-rotate(175deg)
+    brightness(94%) contrast(80%);
+  margin-left: 0.4em;
+  transition: 0.3s ease-out;
+}
+.mainpage-skills ul {
+  columns: 3;
+  margin: 1em 0.7em 0.7em 1em;
+}
+.mainpage-skills li {
+  display: flex;
+  margin-bottom: 0.29em;
+}
+.mainpage-skills li a:first-child {
+  border-radius: 3px;
+  padding: 4px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+.mainpage-skills li a:last-child {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: #444e5a;
+  font-weight: bold;
+  padding-left: 0.7em;
+  text-decoration: none;
+}
+.mainpage-skills li:hover a:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.mainpage-skills li:hover a:last-child {
+  color: rgba(68, 78, 90, 0.9);
+  border-radius: 0 3px 3px 0;
+}
+.mainpage-update .news-date {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+.mainpage-update p:not(.news-date) {
+  margin-left: 1em;
+}
+.mainpage-discord {
+  border: none;
+  box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.3);
+}
+.mainpage-discord .tile-top {
+  display: flex;
+  align-items: center;
+  background-color: #5865F2;
+  padding: 1em 1.75em;
+}
+.mainpage-discord .tile-top a {
+  flex: 1;
+  position: relative;
+  text-decoration: none;
+}
+.mainpage-discord .tile-top a:hover .arrow {
+  transform: translateX(50%);
+}
+.mainpage-discord .tile-bottom {
+  background-color: #a4b5c6;
+  border: none;
+  padding: 1em 1.75em;
+}
+.mainpage-discord .tile-bottom p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+.mainpage-discord .discord-icon {
+  margin-right: 0.75em;
+}
+.mainpage-discord .server-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0.5em 0 -0.15em;
+}
+.mainpage-discord .server-tagline {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.5em;
+}
+.mainpage-discord .arrow {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 0;
+  height: 1em;
+  width: 0.7em;
+  background-size: 0.7em 1em;
+  transition: 0.3s ease-out;
+}
+.mainpage-reddit {
+  border: none;
+  box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.3);
+}
+.mainpage-reddit .tile-top {
+  display: flex;
+  align-items: center;
+  background: #b9ccdf;
+  padding: 1em 1.75em;
+}
+.mainpage-reddit .tile-top a {
+  flex: 1;
+  position: relative;
+  text-decoration: none;
+}
+.mainpage-reddit .tile-top a:hover .arrow {
+  transform: translateX(50%);
+}
+.mainpage-reddit .tile-bottom {
+  background: #a4b5c6;
+  border: none;
+  padding: 1em 1.75em;
+}
+.mainpage-reddit .tile-bottom p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+.mainpage-reddit .reddit-logo {
+  margin-right: 0.75em;
+}
+.mainpage-reddit .reddit-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0.5em 0 -0.15em;
+}
+.mainpage-reddit .reddit-tagline {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.5em;
+}
+.mainpage-reddit .arrow {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 0;
+  height: 1em;
+  width: 0.7em;
+  background-size: 0.7em 1em;
+  transition: 0.3s ease-out;
+}
+.mainpage-poll .ajaxpoll {
+  max-width: 315px !important;
+}
+.mainpage-forum {
+  border: none;
+  box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.3);
+}
+.mainpage-forum .tile-top {
+  display: flex;
+  align-items: center;
+  background: #2a2a2a;
+  padding: 1em 1.75em;
+}
+.mainpage-forum .tile-top a {
+  flex: 1;
+  position: relative;
+  text-decoration: none;
+}
+.mainpage-forum .tile-top a:hover .arrow {
+  transform: translateX(50%);
+}
+.mainpage-forum .tile-bottom {
+  background: #4c4c4c;
+  border: none;
+  padding: 1em 1.75em;
+}
+.mainpage-forum .tile-bottom p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+.mainpage-forum .forum-icon {
+  margin-right: 0.75em;
+}
+.mainpage-forum .forum-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0.5em 0 -0.15em;
+}
+.mainpage-forum .forum-tagline {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.5em;
+}
+.mainpage-forum .arrow {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 0;
+  height: 1em;
+  width: 0.7em;
+  background-size: 0.7em 1em;
+  transition: 0.3s ease-out;
+}
+
+/**
+    Messageboxes
+**/
+.messagebox {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.incomplete {
+  border-left: 15px solid #ffcc00;
+}
+.cleanup {
+  border-left: 5px solid #009405;
+}
+
+/**
+    Table configuration
+**/
+.hover-highlight > * > tr:hover {
+  background-color: #e5e5e5;
+}
+
+/**
+    Community loot & item tables
+**/
+.lootTable, .itemTable {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 100%;
+}
+
+.lootTable td, .itemTable td {
+  border: 1px solid #9b9b9b;
+  overflow: hidden;
+  padding: 5px 5px;
+  word-break: normal;
+}
+
+.lootTable th, .itemTable th {
+  border: 1px solid #9b9b9b;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 8px 5px;
+  word-break: normal;
+  vertical-align: middle;
+}
+
+.lootTable img {
+  width: 25px;
+  height: auto;
+}
+
+.itemTable img {
+    width: 60px;
+    height: auto;
+  }
+
+.lootTable .lt-header-row, .itemTable .it-header-row {
+  background-color: #efefef;
+  border: 1px solid #9b9b9b;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.lootTable .lt-bottom-row, .itemTable .it-bottom-row {
+  background-color: #efefef;
+  border: 1px solid #9b9b9b;
+  text-align: center;
+  vertical-align: middle;
+}
