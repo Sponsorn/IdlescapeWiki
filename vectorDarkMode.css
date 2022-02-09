@@ -850,6 +850,33 @@ body .oo-ui-pendingElement-pending {
     filter: none !important
 }
 
+.wikiEditor-ui-toolbar,.wikiEditor-ui-toolbar .sections .section  {
+    background: inherit;
+    color: #cbd9f4;
+}
+
+.wikiEditor-ui-toolbar .booklet .index .current {
+    background-color: #222e45;
+    color: #cbd9f4;
+}
+
+.wikiEditor-ui-toolbar .booklet .index div {
+    color: #cbd9f4;
+}
+
+.wikiEditor-ui-toolbar .tabs span.tab a.current, .wikiEditor-ui-toolbar .tabs span.tab a{
+    color: #cbd9f4;
+    text-decoration: underline;
+}
+
+.wikiEditor-ui-toolbar .group .label {
+    color: #cbd9f4;
+}
+
+.wikiEditor-ui-toolbar .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+    background-color: #222e45;
+}   
+    
 .oswf-tile .oo-ui-iconElement-icon.oo-ui-icon-expand,
 .oswf-tile .oo-ui-iconElement-icon.oo-ui-icon-collapse {
     filter: none !important
