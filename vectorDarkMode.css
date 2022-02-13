@@ -427,6 +427,28 @@ body .warningbox a {
 body .warningbox.tdg-editscreen-error-msg {
     color: #feecea
 }
+    
+.errorbox {
+    background-color:#801c13;
+    border-color:#801c13;
+}
+.mw-scribunto-input {
+    color:#cbd9f4;
+}
+.mw-scribunto-message {
+    color:#00A000;
+    background: #222e45;
+}
+.mw-scribunto-normalOutput {
+    background: #222e45;
+    color:#cbd9f4;
+}
+.mw-scribunto-error {
+    background: #222e45;
+}
+.mw-scribunto-error p {
+    color:#f26d60;
+}
 
 body .updatedmarker {
     color: #ecf8e3;
@@ -1062,12 +1084,17 @@ body figure[data-diff-action='insert'] > figcaption {
     font-size: 0.85em;
 }
 
+.infobox .infobox-title,
+.infobox .infobox-above,
+.infobox .infobox-header {
+    background-color: #222e45;
+}
+    
 .infobox-header {
     font-size: 1.5em;
     text-align: center;
     line-height: 1.4em;
     padding: 0.5em 0;
-    background-color: #222e45;
     font-weight: bold;
 }
 
@@ -1075,7 +1102,6 @@ body figure[data-diff-action='insert'] > figcaption {
     font-size: 1.25em;
     text-align: center;
     line-height: 2em;
-    background-color: #222e45;
     font-weight: bold;
 }
 
